@@ -1,0 +1,29 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+
+  input::placeholder {
+    color: rgb(226, 226, 226);
+  }
+  input,
+  button {
+    font-size: 2rem;
+    padding: 0.25rem;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  button {
+    color: rgb(207, 207, 207);
+    background-color: rgb(61, 61, 61);
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(80, 80, 80);
+    }
+
+    &:active {
+      background-color: rgb(61, 61, 61);
+    }
+  }
+}

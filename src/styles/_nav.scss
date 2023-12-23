@@ -1,0 +1,16 @@
+nav {
+  border-bottom: 1px solid rgba(255, 0, 0, 0.432);
+  box-shadow: 0px -4px 10px red;
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    li {
+      padding: 0.5rem 1rem;
+      a {
+        color: white;
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
