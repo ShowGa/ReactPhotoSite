@@ -14,7 +14,7 @@ const HomePage = () => {
   let [current, setCurrent] = useState("");
   // Notification message
   let [notiMessage, setNotiMessage] = useState("");
-  const auth = process.env.API_PIXEL;
+  const auth = "hfspAZv5xbWMmOWhB6gaUy1a5yBGwwgNdz44yDtzWc46VDu6oOC2mUXA";
   const initialURL = "https://api.pexels.com/v1/curated?page=1&per_page=15";
   const searchURL = `https://api.pexels.com/v1/search?query=${input}&page=1&per_page=15`;
   // Fetch Data
